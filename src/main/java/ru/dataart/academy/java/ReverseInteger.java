@@ -38,7 +38,7 @@ public class ReverseInteger {
         return resultList;
     }
     
-    private long getValueFromList(List<Long> valueList){
+    private long getValueFromList(List<Long> valueList) {
         long resultVal = 0;
         for (int i = 0; i < valueList.size(); i++) {
             resultVal += valueList.get(i) * Math.pow(10, valueList.size() - 1 - i);
